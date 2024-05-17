@@ -1,0 +1,148 @@
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+header {
+    width: 100%;
+    min-width: 1200px;
+    height: 60px;
+    background-color:aliceblue;
+    box-sizing: border-box;
+}
+
+#login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:16px 40px;
+
+    color:#fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    min-height: calc(100vh - 120px);
+    width: 100%;
+/*맞는지 모르겠음*/
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    min-width: 1200px;
+    background-color: aliceblue;
+}
+
+#container{
+width:80vw;
+align-content: center;
+
+display: flex;
+justify-content: center;
+/*이거 잘모르는데 추가함 되긴한듯*/
+}
+
+#box1{
+    width:972px;
+/*위에꺼랑 같이 추가함*/
+
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding:12px;
+}
+
+#boardname{
+    height:60px;
+  font-weight:bold;
+  font-size:32px; 
+  align-content: center; 
+}
+
+#writebutton{
+    width:160px;
+    height:52px;
+      color:#fff;
+font-size:20px;
+font-weight:bold;
+
+      border-radius: 15px;
+      background-color: aliceblue;
+
+      text-align: center;
+      align-content: center;
+}
+
+#middle{
+    display: flex;
+}
+/*
+#writelist{
+border:1px dashed black;
+}*/
+
+
+.write{
+    width: 85vh;
+    /* width:60%;
+   
+   or min-width:90vh;
+   max-width:988px;
+    너비 보고 수정*/
+    height:44px;
+    padding:12px 24px;
+    border:1px solid gainsboro;
+    border-radius: 30px;
+    box-sizing: border-box;
+ /*gap:30px;이거는 내부 글자간에*/
+    font-size: 16px;
+margin:12px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+.write:hover{
+    scale:1.005;
+box-shadow: 0px 0px 8px gainsboro;
+box-sizing: border-box;}
+
+#writetitle{
+    width:60%;
+}
+
+#pagelist{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:12px;
+    gap:16px;
+
+    font-weight:600;
+
+}
+
+.pagebutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   width:24px;
+    height:24px;
+    background-color: aliceblue;
+    border-radius: 8px;
+    color:#fff;
+}
+
+.bar{
+    font-size: 16px;
+    color:gainsboro;
+}
+

@@ -1,0 +1,126 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+width:100vw;
+min-width:1200px;
+height:60px;
+background-color: aliceblue;
+}
+
+main{
+width:100vw;
+min-height: calc(100vh - 120px);
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+footer{
+width:100vw;
+min-width: 1200px;
+height:60px;
+background-color: aliceblue;
+}
+
+#box1{
+    width:972px;
+
+    display: flex;
+    align-items: center;
+    gap:12px;
+    padding:20px;
+    
+}
+
+#writetitle{
+height: 60px;
+width:972px;
+
+font-size: 32px;
+font-weight: bold;
+
+justify-content: flex-start;
+
+/*너비주고 정렬해야 정렬됨*/
+}
+
+#inputbox{
+    width:972px;
+   /*선이 좀 제대로 오려면 뭘해야됨? 스크롤 안생기게하려면*/
+    height:60vh;
+
+    border-top:1px solid gainsboro;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#textroom{
+    min-height: calc(100% - 66px);
+    border-radius: 20px;
+
+    box-sizing: border-box;
+    padding:12px;
+}
+
+#button{
+    padding: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap:8px;
+
+    border-bottom: 1px solid gainsboro;
+}
+
+#수정{
+    border:2px solid gainsboro;
+    border-radius: 16px;
+    padding:8px;
+}
+
+#삭제{
+    border:2px solid gainsboro;
+    border-radius: 16px;
+    padding:8px;
+}
+
+
+#comment{
+    width:972px;
+}
+#commenttitle{
+    font-size: 20px;
+    font-weight: bold;
+    height:32px;
+
+    margin-top: 16px;
+}
+
+#commentbox{
+    display: flex;
+    align-items: center;
+    gap:4px;
+}
+
+#commentinput{
+    width:95%;/*버튼 크기맞추 수정*/
+    height:36px;
+    border:2px solid gainsboro;
+    border-radius: 16px;
+    padding:8px;
+    box-sizing: border-box;
+}
+
+#commentbotton{
+    width:5%;
+    border:2px solid gainsboro;
+    border-radius: 16px;
+    padding:8px;
+
+    text-align: center;
+}

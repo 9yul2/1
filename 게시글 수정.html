@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>게시글 수정</title>
+        <link rel="stylesheet" href="./reset.css">
+        <link rel="stylesheet" href="./게시글 수정.css"/>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/quill@2.0.1/dist/quill.snow.css">
+    </head>
+    <body>
+        <header>
+            <!-- <div id="menu"> <img src="#" alt="메뉴"> </div> <div id="close"></div>-->
+        </header>
+
+        <main>
+            <div id="container">
+                <p id="writetitle">글 수정</p>
+                <input type="text" id="title" placeholder="제목을 입력하세요.">
+
+                <div id="editorContainer">
+                    <div id="editor">
+                        <p>Hello World!</p>
+                        <p>Some initial
+                            <strong>bold</strong>
+                            text</p>
+                        <p><br/></p>
+                    </div>
+                </div>
+                <div id="buttonroom">
+                    <div id="writebutton">등록</div>
+                </div>
+                
+            </div>
+            
+        </main>
+
+        <footer></footer>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/quill@2.0.1/dist/quill.js"></script>
+    <script>
+        const quill = new Quill('#editor', {theme: 'snow'});
+    </script>
+</html>
